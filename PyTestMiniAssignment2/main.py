@@ -29,8 +29,6 @@ for i in result3:
     if result3[i] > 1:
         res = "{}{}{}".format(i, "->", result3[i])
         NewList.append(res)
-        
+
 Join = ",".join(NewList)
 print(Join)
-
-
